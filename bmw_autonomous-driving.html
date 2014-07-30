@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Autonomous driving</title>
+
+		<meta name="description" content="Talk given the autonomonous and internet of things summer school oragnised by BMW in Tegernsee.">
+		<meta name="author" content="Alexandre Vallette">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="engine/css/ants.css">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="engine/lib/css/zenburn.css">
+
+		<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+		<script>
+			if( window.location.search.match( /print-pdf/gi ) ) {
+				var link = document.createElement( 'link' );
+				link.rel = 'stylesheet';
+				link.type = 'text/css';
+				link.href = 'css/print/pdf.css';
+				document.getElementsByTagName( 'head' )[0].appendChild( link );
+			}
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+
+				<section>
+
+					<div class="clear-all"></div>
+					<h2>Cities, data and<br/><br/> connected objects</h2>
+					<hr />
+					<br /><br />
+					<h6> the way to autonomous driving (living ?)</h6>
+
+				</section>
+				
+				<!-- Intro -->
+				<section data-background="img/lab.jpg">
+					<br/><br/><br/><br/>
+					<h2><font color="white">not research</font></h2>
+				</section>
+				<section data-background="img/corporate.jpg">
+					<br/><br/><br/><br/>
+					<h2><font color="white">not corporate</font></h2>
+				</section>
+				<section data-background="img/bike.jpg">
+					<br/><br/><br/><br/>
+					<h2><font color="white">not artisan</font></h2>
+				</section>
+				<section data-background="img/metro.jpg">
+				</section>
+				<section>
+					<h2>on street parking</h2><br/><br/>
+					<img src="img/parking.jpg" width="900">
+				</section>
+				<section data-background="img/coding.jpg">
+				<h2><font color="white">paper<br/><br/>computer</font></h2>
+				</section>
+				<section>
+					<h2>Contextual modeling</h2><br/><br/>
+					<img src="img/contextual.png" width="900">
+				</section>
+				<section>
+					<h2>new york signs</h2><br/><br/>
+					<img src="img/sign.jpg" width="300">
+				</section>
+				<section data-background="img/parkr.jpg">
+				</section>
+				
+				<section data-background="img/stack.jpg">
+				</section>	
+				<section>
+					<h2>a startup</h2><br/><br/>
+					<img src="img/startup.jpg" width="900">
+				</section>
+
+
+				<!-- product -->
+				<section data-background="img/tranquilien.jpg">
+					<img src="img/tranquilien2.png" width="300"  align="right">
+					<aside class="notes">
+							We also created app to provide the information and crowdsource more. 
+					</aside>
+				</section>
+				<section data-background="img/laposte.jpg">
+					<aside class="notes">
+							What we invented is a technique to make prediction about flux of people inside cities. 
+					</aside>
+				</section>
+				<section data-background="img/3d.jpg">
+					<h2><font color="white">Feature engineering</font></h2>
+				</section>
+				
+				<section data-background="img/ss2.jpg">
+				</section>
+
+				<section data-background="img/ss1.jpg">
+				</section>
+				
+
+				<!-- challenge the status quo -->
+				<section>
+					<h2>engineer &#8621; hacker</h2>
+					<aside class="notes">
+						Why learned from this is the difference between a hacker and engineer.
+					</aside>
+				</section>
+				<section data-background="img/trackr.jpg">
+					<h2>  privacy is<br/><br/> a "real" issue</h2>
+				</section>
+
+				<!-- connected objects -->
+				<section>
+					<h3>Sigfox</h3><br/><br/> is great when you can <h3><br/><br/> process the data in the sensor</h3>
+				</section>
+								<section>
+					<h3>Recycling centers</h3></br></br>
+					<img width="900" src="img/recycling_center.jpg"><br/><br/>
+					<h4>Problems:</h4></br></br>
+					<ol>
+						<li class="fragment"><strong>we don't sort well</strong></li>
+						<li class="fragment"><strong>we don't reuse</strong></li>
+					</ol>
+				</section>
+				<section>
+					<h3>Objectives:</h3></br></br>
+					<ol>
+
+						<li><strong>predict demand</strong></li>
+						<li><strong>provide an application</strong></li>
+						<li><strong>connect to reusers</strong></li>
+					</ol>
+				</section>
+
+				<!-- sensor -->
+				<section data-background="img/raspberrypi.jpg">
+					<br/><br/><br/><br/>
+					<h2><font color="CC3300">Designing</font>&nbsp;<font color="white"> a sensor</font></h2>
+				</section>
+				<section>
+					<h3>The sensor should:</h3></br></br>
+					<ol>
+
+						<li><strong>measure affluence</strong></li>
+						<li><strong>measure the level of each containers</strong></li>
+						<li><strong>low cost</strong></li>
+						<li><strong>improvable</strong></li>
+					</ol>
+				</section>
+				<section>
+					<h3>Counting the number of cars</h3><br/><br/><br/>
+					<img src="img/car_detection1.jpg">
+				</section>
+				<section>
+					<h3>The level of each container</h3><br/><br/><br/>
+					<img src="img/bin1.png" height="150">&nbsp;&nbsp;<h2>&#8594;</h2>&nbsp;&nbsp;<img src="img/bin2.png" width="100">&nbsp;&nbsp;<h2>&#8594;</h2>&nbsp;&nbsp;<h2>4</h2>
+				</section>
+				<section>
+					<h3>Realtime monitoring</h3><br/>
+
+					<div class="stretch">
+ 	  						<iframe src="https://plot.ly/~vallettea/13/560/420" frameborder="0" seamless="seamless" scrolling="no" height="100%" width="100%" allowfullscreen></iframe>
+						</div>
+				</section>
+
+				<!-- open questions -->
+				<section>
+					<h2>challenges</h2>
+				</section>
+				<section>
+					<h3>how to get rid of the<br/><br/> (centralized) cloud ?</h3>
+				</section>
+				<section>
+					<h3>how to make the network of<br/><br/> connected cars resilient ?</h3>
+				</section>
+				<section>
+					<h3>use the network of connected<br/><br/> cars as a telecom network ?</h3>
+				</section>
+
+
+
+				<section>
+					<h3>http://snips.net</h3></br></br></br></br>
+					<h3>http://ants.builders</h3></br></br></br></br>
+					<h3>twitter: @vallettea</h3>
+				</section>
+
+
+
+			</div>
+
+		</div>
+
+		<script src="engine/lib/js/head.min.js"></script>
+		<script src="engine/js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Parallax scrolling
+				// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+				// parallaxBackgroundSize: '2100px 900px',
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'engine/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'engine/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'engine/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'engine/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'engine/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'engine/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
