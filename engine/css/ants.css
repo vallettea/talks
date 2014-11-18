@@ -42,7 +42,7 @@ img.headshot {
 /* Background Watermark */
 body::before {
   content: "";
-  -webkit-mask-box-image: url(../../img/ants.png) 100% 100% 0 0;
+  -webkit-mask-box-image: url(../../img/region.png) 100% 100% 0 0;
   background: #4183c4;
   position: absolute;
   opacity: .3;
@@ -171,7 +171,7 @@ ul.inline-list{
 ul.inline-list li{
   float:left;
   clear: none;
-  width: 300px;
+  width: 220px;
 }
 
 ul.inline-list img{
