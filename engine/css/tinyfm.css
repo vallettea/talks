@@ -133,6 +133,14 @@ h3 {
   text-align: center; 
 }
 
+/*.jukebox h1{
+  color: #5882FA !important;
+}
+
+.jukebox h3{
+  color: white !important;
+}*/
+
 .table-layout{
     display: table;
 }
