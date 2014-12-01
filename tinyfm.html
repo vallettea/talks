@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>tiny.fm - Canvas Hackathon</title>
+
+		<meta name="description" content="Talk for the al jazeera media in context hackathon.">
+		<meta name="author" content="Alexandre Vallette, Thomas Parisot, Basile Simon">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="engine/css/tinyfm.css">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="engine/lib/css/zenburn.css">
+
+		<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+		<script>
+			if( window.location.search.match( /print-pdf/gi ) ) {
+				var link = document.createElement( 'link' );
+				link.rel = 'stylesheet';
+				link.type = 'text/css';
+				link.href = 'css/print/pdf.css';
+				document.getElementsByTagName( 'head' )[0].appendChild( link );
+			}
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+
+				<section>
+
+					<div class="clear-all"></div>
+					<h1>tiny.fm</h1>
+					<hr />
+					<h3>our bete de tagline</h3>
+
+				</section>
+				
+				<section data-background="img/cnn.jpg">
+					<br/><br/><br/><br/>
+					<h2><font color="white">nothing changed</font></h2>
+				</section>
+
+
+				<section data-background="img/robert-capa.jpg">
+					<br/><br/><br/><br/>
+					<h2><font color="black">journalism</font></h2>
+				</section>
+
+				<section data-background="img/crowd.jpg">
+					<br/><br/><br/><br/>
+					<h2><font color="white">soft media for the community</font></h2>
+				</section>
+
+
+
+				<section data-background="img/pifm.JPG">
+				</section>
+
+				<section data-background="img/pifm2.JPG">
+					<img src="img/tinyfm_iphone.png" width="300"  align="right">
+				</section>
+
+
+				<section>
+					<h3>Tiny:</h3></br></br>
+					<ol>
+						<li><strong>simple</strong></li>
+						<li><strong>low cost</strong></li>
+						<li><strong>opened</strong></li>
+					</ol>
+					</br></br>
+					<h3>DIY</h3>
+				</section>
+
+				<section>
+					<h2>On air: 107.9 FM</h2></br>
+					<hr /></br>
+
+					<h3>http://tiny.fm</h3></br></br>
+					<h3>http://github.com/tinyfm</h3></br></br>
+					<h3>@oncletom</h3></br>
+					<h3>@basilesimon</h3></br>
+					<h3>@vallettea</h3></br></br>
+					<h6>Thanks to ...</h6>
+				</section>
+
+
+
+			</div>
+
+		</div>
+
+		<script src="engine/lib/js/head.min.js"></script>
+		<script src="engine/js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Parallax scrolling
+				// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+				// parallaxBackgroundSize: '2100px 900px',
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'engine/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'engine/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'engine/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'engine/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'engine/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'engine/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
