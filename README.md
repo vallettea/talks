@@ -7,6 +7,12 @@
 
 [Presentation to SNIPS](https://vallettea.github.io/talks/4snips.html)
 
-[World Entrepreneur Forum](https://vallettea.github.io/talks/WEF.html)
+[World Entrepreneur Forum 2014](https://vallettea.github.io/talks/WEF.html)
+
+[Open World Forum 2014](https://vallettea.github.io/talks/owf.html)
 
 [Papis.io 2014](https://vallettea.github.io/talks/papis.io.html)
+
+[TinyFM (Aljazeera Media in context hackathon) 2014](https://vallettea.github.io/talks/tinyfm.html)
+
+[TTFX 2014](https://vallettea.github.io/talks/ttfx.html)
