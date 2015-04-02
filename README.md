@@ -16,3 +16,6 @@
 [TinyFM (Aljazeera Media in context hackathon) 2014](https://vallettea.github.io/talks/tinyfm.html)
 
 [TTFX 2014](https://vallettea.github.io/talks/ttfx.html)
+
+
+[IoT- cci 2015](https://vallettea.github.io/talks/iot-cci.html)
