@@ -17,5 +17,6 @@
 
 [TTFX 2014](https://vallettea.github.io/talks/ttfx.html)
 
-
 [IoT- cci 2015](https://vallettea.github.io/talks/iot-cci.html)
+
+[IoT- cci 2015](https://vallettea.github.io/talks/metronum.html)
