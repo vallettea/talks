@@ -19,4 +19,8 @@
 
 [IoT- cci 2015](https://vallettea.github.io/talks/iot-cci.html)
 
-[IoT- cci 2015](https://vallettea.github.io/talks/metronum.html)
+[metronum 1 2015](https://vallettea.github.io/talks/metronum1.html)
+
+[metronum 2 2015](https://vallettea.github.io/talks/metronum2.html)
+
+[london city concil 2015](https://vallettea.github.io/talks/london_borough.html)
