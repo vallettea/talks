@@ -1,0 +1,22 @@
+{
+  "name": "talks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ddeck.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vallettea/talks.git"
+  },
+  "author": "ants <contact@ants.builders> (http://ants.builders)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vallettea/talks/issues"
+  },
+  "homepage": "https://github.com/vallettea/talks#readme",
+  "dependencies": {
+    "anthillviz": "^0.1.0"
+  }
+}
